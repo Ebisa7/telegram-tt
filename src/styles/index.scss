@@ -12,9 +12,11 @@
 
 html,
 body {
-
-  --font-family: "Helvetica Now", "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI", Oxygen, Ubuntu,
+  /* Editable brand fonts */
+  --font-family-body: "Helvetica Now", "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI", Oxygen, Ubuntu,
   Cantarell, "Fira Sans", "Droid Sans", sans-serif;
+  --font-family-heading: "Nebulica-Regular", "Helvetica Now", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family: var(--font-family-body);
   --font-family-monospace: "Cascadia Mono", "Roboto Mono", "Droid Sans Mono", 'SF Mono', "Menlo", "Ubuntu Mono",
   "Consolas", monospace;
   --font-family-rounded: -ui-rounded, "Numbers Rounded", "Helvetica Now", "Helvetica Neue", sans-serif;
@@ -45,6 +47,11 @@ body {
   @media (max-width: 600px) {
     height: calc(var(--vh, 1vh) * 100);
   }
+}
+
+/* Headings use the expressive brand font */
+h1, h2, h3, h4, h5, h6, .title {
+  font-family: var(--font-family-heading);
 }
 
 noscript {

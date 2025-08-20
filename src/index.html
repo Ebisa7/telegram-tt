@@ -21,6 +21,15 @@
   <meta name="msapplication-TileColor" content="#2b5797">
   <meta name="msapplication-config" content="./browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
+  <style>
+    :root {
+      /* Material 3 primary/secondary used by components */
+      --md-sys-color-primary: var(--color-primary);
+      --md-sys-color-secondary: var(--color-secondary);
+      --md-sys-color-secondary-container: var(--color-secondary-container);
+      --md-sys-color-on-secondary: var(--color-on-secondary);
+    }
+  </style>
   <meta name="google" content="notranslate">
 
   <meta http-equiv="Content-Security-Policy" content="<%= htmlWebpackPlugin.options.csp %>">

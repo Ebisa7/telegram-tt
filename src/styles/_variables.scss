@@ -22,7 +22,7 @@ $color-primary: #F2C94C; // ETNGram primary
 // Secondary brand color for accents and surfaces
 $color-secondary: #133A2A;
 
-$color-links: #3390ec;
+$color-links: $color-primary; // align links to brand primary
 
 $color-placeholders: #a2acb4;
 

@@ -3,6 +3,10 @@
 #LeftMainHeader {
   position: relative;
 
+  /* Expressive Material 3 top app bar */
+  background: var(--color-secondary-container);
+  border-bottom: 1px solid rgba(var(--color-secondary-rgb), 0.12);
+
   .DropdownMenuFiller {
     width: 2.5rem;
     height: 2.5rem;

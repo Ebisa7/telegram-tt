@@ -1,6 +1,9 @@
 .link {
   color: inherit;
 
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+
   &:hover {
     color: inherit;
 
@@ -11,9 +14,9 @@
 }
 
 .isPrimary {
-  color: var(--color-primary);
+  color: var(--color-links);
 
   &:hover {
-    color: var(--color-primary);
+    color: var(--color-links);
   }
 }

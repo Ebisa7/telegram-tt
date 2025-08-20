@@ -96,16 +96,16 @@
   &.secondary {
     --ripple-color: rgba(0, 0, 0, 0.08);
 
-    color: rgba(var(--color-text-secondary-rgb), 0.75);
-    background-color: var(--color-background);
+    color: var(--color-on-secondary);
+    background-color: var(--color-secondary);
 
     @include active-styles() {
-      color: white;
-      background-color: var(--color-primary);
+      color: var(--color-on-secondary);
+      background-color: var(--color-secondary);
     }
 
     @include no-ripple-styles() {
-      background-color: var(--color-primary-shade);
+      background-color: rgba(var(--color-secondary-rgb), 0.9);
     }
   }
 

@@ -6,6 +6,8 @@
 
   height: var(--header-height);
   padding: 0.5rem 0.8125rem;
+  background: var(--color-secondary-container);
+  border-bottom: 1px solid rgba(var(--color-secondary-rgb), 0.12);
 
   .close-button {
     flex-shrink: 0;

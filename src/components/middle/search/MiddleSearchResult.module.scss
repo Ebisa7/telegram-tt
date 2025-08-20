@@ -21,7 +21,7 @@
 
       color: var(--color-text);
 
-      background: #cae3f7;
+      background: var(--color-primary-tint);
 
       :global(.theme-dark) & {
         --color-text: #000;

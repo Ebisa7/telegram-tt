@@ -15,7 +15,8 @@
   padding-bottom: 0.25rem;
   padding-left: max(1.4375rem, env(safe-area-inset-left));
 
-  background: var(--color-background);
+  background: var(--color-secondary-container);
+  border-bottom: 1px solid rgba(var(--color-secondary-rgb), 0.12);
 
   .Transition {
     width: 100%;

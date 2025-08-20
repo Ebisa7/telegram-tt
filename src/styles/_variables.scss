@@ -56,8 +56,8 @@ $color-dividers-android: #E7E7E7;
 $color-item-hover: #f4f4f5;
 $color-item-active: #ededed;
 $color-chat-hover: #f4f4f5;
-$color-chat-active: var(--color-primary);
-$color-selection: var(--color-primary);
+$color-chat-active: $color-primary;
+$color-selection: $color-primary;
 
 $color-message-reaction: #ebf3fd;
 $color-message-reaction-hover: #c5def9;

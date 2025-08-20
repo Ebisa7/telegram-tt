@@ -43,6 +43,8 @@ body {
   text-align: left;
 
   background-color: var(--color-background);
+  background-image: radial-gradient(60rem 40rem at 20% -10%, rgba(242, 201, 76, 0.07), transparent),
+                    radial-gradient(40rem 30rem at 110% 10%, rgba(19, 58, 42, 0.06), transparent);
 
   @media (max-width: 600px) {
     height: calc(var(--vh, 1vh) * 100);

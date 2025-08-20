@@ -1,11 +1,11 @@
 /* eslint-disable no-template-curly-in-string */
 const config = {
-  productName: 'Telegram A',
+  productName: 'ETNGram',
   artifactName: '${productName}-${arch}.${ext}',
-  appId: 'org.telegram.TelegramA',
+  appId: 'app.etngram.desktop',
   extraMetadata: {
     main: './dist/electron.cjs',
-    productName: 'Telegram A',
+    productName: 'ETNGram',
   },
   asarUnpack: [
     'build/Release/electron_drag_click.node',

@@ -18,7 +18,9 @@
   @return rgb($bm-red, $bm-green, $bm-blue);
 }
 
-$color-primary: #3390ec;
+$color-primary: #F2C94C; // ETNGram primary
+// Secondary brand color for accents and surfaces
+$color-secondary: #133A2A;
 
 $color-links: #3390ec;
 
@@ -119,6 +121,13 @@ $color-message-story-mention-to: #74bcff;
   --accent-color: var(--color-primary);
   --accent-background-color: var(--color-primary-tint);
   --accent-background-active-color: var(--color-primary-opacity);
+
+  // Secondary tokens for Material 3 expressive
+  --color-secondary: #{$color-secondary};
+  --color-secondary-rgb: #{toRGB($color-secondary)};
+  --color-secondary-container: #{color.mix($color-secondary, $color-white, 85%)};
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #0F241C;
 
   --color-error: #{$color-error};
   --color-error-shade: #{color.mix($color-error, $color-black, 92%)};

@@ -7,7 +7,7 @@ import type {
 } from './types';
 
 export const APP_CODE_NAME = 'A';
-export const APP_NAME = process.env.APP_NAME || `Telegram Web ${APP_CODE_NAME}`;
+export const APP_NAME = process.env.APP_NAME || 'ETNGram';
 export const RELEASE_DATETIME = process.env.RELEASE_DATETIME;
 
 export const PRODUCTION_HOSTNAME = 'web.telegram.org';

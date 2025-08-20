@@ -1,7 +1,7 @@
 {
-    "name": "Telegram Web",
-    "short_name": "Telegram Web",
-    "description": "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.",
+    "name": "ETNGram",
+    "short_name": "ETNGram",
+    "description": "ETNGram is a modern, expressive messaging experience tuned for speed, style, and security.",
     "start_url": "./",
     "gcm_sender_id": "122867383838",
     "icons": [

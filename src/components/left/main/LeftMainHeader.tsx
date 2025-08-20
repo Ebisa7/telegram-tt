@@ -215,7 +215,7 @@ const LeftMainHeader: FC<OwnProps & StateProps> = ({
     ? lang('SearchFriends')
     : lang('Search');
 
-  const versionString = IS_BETA ? `${APP_VERSION} Beta (${APP_REVISION})` : (DEBUG ? APP_REVISION : APP_VERSION);
+  const versionString = IS_BETA ? `${APP_NAME} Beta (${APP_REVISION})` : (DEBUG ? APP_REVISION : APP_VERSION);
 
   const isFullscreen = useFullscreenStatus();
 

@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 import path from 'path';
 import { EnvironmentPlugin } from 'webpack';
